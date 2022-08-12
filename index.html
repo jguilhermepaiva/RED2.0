@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta name="theme-color" content="#f9f9f9">
+    <link rel="canonical" href="https://outputweb.com.br/RED1/">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+    <link rel="manifest" href="manifest.json" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RED - Portal de recursos educacionais digitais </title>
+    <link rel="stylesheet" href="./style.css">
+
+   
+</head>
+<body>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+        console.log("[PWA Builder] active service worker found, no need to register");
+        } else {
+        navigator.serviceWorker
+        .register("pwabuilder-sw.js", {
+        scope: "./"
+        })
+        .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+        });
+        }
+        }
+        </script>
+
+    <div class="navbar">
+        <h1>Red - Portal de recursos educacionais digitais</h1>
+    </div>
+    
+    
+
+    <h2 class="texto-secundario">Catálogo de Recursos</h2>
+    
+        <table id="tabela0">
+        </table>
+
+        <table id="tabela">
+        </table>
+            
+        
+   <!-- <script>
+        const card = document.querySelector('#card');
+        card.addEventListener("click", (e)=>{
+            card.classList.toggle("flip")
+        })
+    </script> -->
+
+    <script src="./app.js"></script>
+</body>
+</html>

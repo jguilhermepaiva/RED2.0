@@ -1,0 +1,52 @@
+{
+  "name": "Red - Portal de recursos educacionais digitais",
+  "short_name": "RED1",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "Scope": "https://outputweb.com.br/RED1/",
+  "start_url": "https://outputweb.com.br/RED1/",
+  "icons": [
+    {
+      "src": "./img/Ondev Apps2.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps3.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps4.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps5.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps6.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps7.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps8.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/Ondev Apps.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

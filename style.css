@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: SlateBlue	;
+    color: white;
+    padding: 20px;
+}
+
+.texto-secundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: DarkCyan;
+    font-size: 30px;
+}
+
+
+
+table, table0{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    justify-content: center;
+    padding: 20px;
+}
+
+table div, table0 div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    background-color: RoyalBlue	;
+    border-radius: 15px;
+  
+}
+table img, table0 img{
+    padding: 19.7px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 40vw;
+}
+
+table0 img:hover .face{
+    
+}
+
+div{
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+#table0 div{
+    background-color: red;
+}
+
+.face{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+
+}
+
+table h2{
+    color: white;
+}
+
+table h4{
+    padding: 9px;
+    font-size: .89vw;
+    color: white;
+}
+@media (max-width:1250px){
+    table img, table0 img{
+    }
+}
+@media (max-width:1100px){
+    .face{
+        width: 100%;
+      
+    }
+    table h4{
+        padding: 1px;
+        font-size: 10px;
+    }
+    table img, table0 img{
+        padding: 20px 0 20px 0;
+        width: 400px;
+    }
+    table, table0{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+    div{
+        width: 100%;
+        margin: 5px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    table div, table0 div{  
+        width: 80%;
+    }
+}
+@media (max-width:750px){
+    table img, table0 img{
+     
+        width: 60.5vw;
+    }
+}
